@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unzip project
-        run: unzip -q TuanTuan.zip
+        run: unzip -q .github/workflows/TuanTuan.zip
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
